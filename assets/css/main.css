@@ -839,19 +839,19 @@ pre {
 
 /* Custom CSS for Code Blocks */
 .nx code {
-  color: #ac885b !important;
+  color: #ac885b;
 }
 .p code {
-  color: #cf6a4c !important;
+  color: #cf6a4c;
 }
 .o code {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
 }
 .kc code {
-  color: #9b859d !important;
+  color: #9b859d;
 }
 .d1 code {
-  color: #f9ee98 !important;
+  color: #f9ee98;
 }
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
