@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Blog Post
-subtitle: THis is my first Blog Post :P
+subtitle: This is my first Blog Post :P
 tags: [testing]
 comments: true
 ---
