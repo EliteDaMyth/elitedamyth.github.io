@@ -837,6 +837,22 @@ pre {
   border-right: 2px solid #444;
 }
 
+/* Custom CSS for Code Blocks */
+.nx code {
+  color: #ac885b !important;
+}
+.p code {
+  color: #cf6a4c !important;
+}
+.o code {
+  color: #FFFFFF !important;
+}
+.kc code {
+  color: #9b859d !important;
+}
+.d1 code {
+  color: #f9ee98 !important;
+}
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
   -webkit-user-select: none;
