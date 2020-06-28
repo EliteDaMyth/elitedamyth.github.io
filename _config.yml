@@ -1,22 +1,21 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: EliteDaMyth's Blog
 
 # Short description of your site
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Some Person
+author: EliteDaMyth
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects:
+    - Disease.sh: "https://disease.sh"
+  Author's home: "https://elitedamyth.github.io"
 
 # --- Logo --- #
 
@@ -38,12 +37,12 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+ # email: "someone@example.com"
+ # facebook: deanattali
+  github: EliteDaMyth
+  twitter: EliteDaMyth
   rss: true
-#  reddit: yourname
+  reddit: EliteDaMyth
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -64,13 +63,13 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+# url-pretty: "MyWebsite.com"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -85,7 +84,7 @@ excerpt_length: 50
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
 navbar-border-col: "#EAEAEA"
-page-col: "#FFFFFF"
+page-col: "#2C2F33"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
