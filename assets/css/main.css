@@ -447,7 +447,7 @@ footer .footer-custom-content {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: #FFFFFF;
 }
 
 .post-preview a:focus,
@@ -467,7 +467,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #99AAB5;
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
