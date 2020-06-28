@@ -838,19 +838,19 @@ pre {
 }
 
 /* Custom CSS for Code Blocks */
-.nx {
+.highlight .nx {
   color: #ac885b;
 }
-.p {
+.highlight .p {
   color: #cf6a4c;
 }
-.o {
+.highlight .o {
   color: #FFFFFF;
 }
-.kc {
+.highlight .kc {
   color: #9b859d;
 }
-.d1 {
+.highlight .d1 {
   color: #f9ee98;
 }
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
