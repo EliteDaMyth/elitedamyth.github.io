@@ -10,6 +10,8 @@ readtime: true
 If you can see this post, I have successfully setup my blog with github pages :)
 
 ```javascript
+var a = "test";
+function ab() {}
 // Single-line comments start with two slashes.
 /* Multiline comments start with slash-star,
    and end with star-slash */
