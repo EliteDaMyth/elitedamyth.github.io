@@ -21,9 +21,6 @@
 {% endif %}
 
 <header class="header-section {% if page.cover-img %}has-img{% endif %}">
-  	{% if site.avatar %}
-    <link rel="icon" href="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
-	{% endif %}
 {% if page.cover-img %}
 <div class="big-img intro-header">
   <div class="container-md">
