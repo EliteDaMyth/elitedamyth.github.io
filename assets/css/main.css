@@ -853,6 +853,9 @@ pre {
 .highlight .dl {
   color: #f9ee98;
 }
+.highlight .kd {
+  color: #cda869;
+}
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
   -webkit-user-select: none;
