@@ -25,12 +25,13 @@ Apparently, Yes.
  ```js
 const axios = require('axios');
 setTimeout(addDL, 1000);
+
 function addDL() {
-	var a = 0;
-	axios.get('https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz').then(response => {
-	a++
-    console.log(`Added ${a} Downloads.\n`);
-	});
+    var a = 0;
+    axios.get('https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz').then(response => {
+        a++
+        console.log(`Added ${a} Downloads.\n`);
+    });
 }
  ```
  So basically, what this code does is fetch the tarball of your package every 1000 milliseconds (1 second.)
