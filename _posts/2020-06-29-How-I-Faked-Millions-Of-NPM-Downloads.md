@@ -23,6 +23,7 @@ Apparently, Yes.
  Then search for "tarball": and get a link which looks like `"tarball": "https://registry.npmjs.org/packagename/-/packagename-1.0.1(actual version).tgz"`
  2. Now half the work is done. You have to make a simple script to fetch that URL (https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz) repeatedly.
  To do this you can use a simple package like axios and use the `setTimeout() `function in JavaScript
+ 
  ```js
 
 const axios = require('axios');
@@ -32,11 +33,12 @@ function addDL() {
     var a = 0;
     axios.get('https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz').then(response => {
         a++
-        console.log(`Added ${a} Downloads.\n`);
+        console.log(`Added ${a} Downloads!\n`);
     });
 }
 
  ```
+ 
  So basically, what this code does is fetch the tarball of your package every 1000 milliseconds (1 second.)
  
 3. Profit????
