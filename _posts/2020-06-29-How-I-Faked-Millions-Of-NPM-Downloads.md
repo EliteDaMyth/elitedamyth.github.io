@@ -5,6 +5,7 @@ subtitle: Faking NPM downloads is the easiest thing to do!
 tags: [npm, hacking]
 readtime: true
 image: /assets/img/NPM.png
+cover-img: /assets/img/NPM-Banner.png
 ---
 
 ### A bit of backstory.
@@ -25,7 +26,6 @@ Apparently, Yes.
  To do this you can use a simple package like axios and use the `setTimeout() `function in JavaScript
  
  ```javascript
-
 const axios = require('axios');
 setTimeout(addDL, 1000);
 
@@ -36,7 +36,6 @@ function addDL() {
         console.log(`Added ${a} Downloads!\n`);
     });
 }
-
  ```
  
  So basically, what this code does is fetch the tarball of your package every 1000 milliseconds (1 second.)
