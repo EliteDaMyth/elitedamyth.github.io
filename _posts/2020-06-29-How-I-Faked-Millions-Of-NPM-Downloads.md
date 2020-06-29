@@ -10,7 +10,7 @@ cover-img: /assets/img/NPM-Banner.png
 
 ### A bit of backstory.
 Ok, so this is my first ever blog post. I am somewhat nervous about writing this. A few months back, I built a [useless NPM package](https://www.npmjs.com/package/getanimals) to get random animal images. This was a wrapper made just for personal use. The API, which this was based on, basically re-served the images from different APIs. So one day, I stumbled upon [this article by npm](https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts). So basically what that article says is 
-> they (package downloads) are simply a count of the number of HTTP 200 responses we served that were tarball files, i.e., packages.
+``` they (package downloads) are simply a count of the number of HTTP 200 responses we served that were tarball files, i.e., packages. ```
 
 When I read that line, something clicked my mind. Did this mean I could repeatedly fetch the tarball of my package and increase the download count?!?!?!?
 Apparently, Yes.
