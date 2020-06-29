@@ -24,11 +24,11 @@ Apparently, Yes.
  1. Get the URL of the tarball of your package. How? Go to [https://registry.npmjs.org/packagename](https://registry.npmjs.org/) (In my case [https://registry.npmjs.org/getanimals](https://registry.npmjs.org/getanimals)), 
  Then search for "tarball": and get a link which looks like `"tarball": "https://registry.npmjs.org/packagename/-/packagename-1.0.1(actual version).tgz"`
  2. Now half the work is done. You have to make a simple script to fetch that URL (https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz) repeatedly.
- To do this you can use a simple package like axios and use the `setTimeout() `function in JavaScript
+ To do this you can use a simple package like axios and use the `setInterval() `function in JavaScript
  
  ```javascript
 const axios = require('axios');
-setTimeout(addDL, 1000);
+setInterval(addDL, 1000);
 
 function addDL() {
     var a = 0;
