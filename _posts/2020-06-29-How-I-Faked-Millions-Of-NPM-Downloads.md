@@ -24,7 +24,7 @@ Apparently, Yes.
  2. Now half the work is done. You have to make a simple script to fetch that URL (https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz) repeatedly.
  To do this you can use a simple package like axios and use the `setTimeout() `function in JavaScript
  
- ```js
+ ```javascript
 
 const axios = require('axios');
 setTimeout(addDL, 1000);
