@@ -28,10 +28,9 @@ Apparently, Yes.
  
  ```javascript
 const axios = require('axios');
+var a = 0;
 setInterval(addDL, 1000);
-
 function addDL() {
-    var a = 0;
     axios.get('https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz').then(response => {
         a++
         console.log(`Added ${a} Downloads!\n`);
