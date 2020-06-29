@@ -26,19 +26,19 @@ Apparently, Yes.
  2. Now half the work is done. You have to make a simple script to fetch that URL (https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz) repeatedly.
  To do this you can use a simple package like axios and use the `setInterval() `function in JavaScript
  
- ```javascript
-const axios = require('axios');
-var a = 0;
-setInterval(addDL, 1000);
-function addDL() {
-    axios.get('https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz').then(response => {
-        a++
-        console.log(`Added ${a} Downloads!\n`);
-    });
-}
- ```
- 
- So basically, what this code does is fetch the tarball of your package every 1000 milliseconds (1 second.)
+  ```javascript
+ const axios = require('axios');
+ var a = 0;
+ setInterval(addDL, 1000);
+ function addDL() {
+     axios.get('https://registry.npmjs.org/getanimals/-/getanimals-1.0.1.tgz').then(response => {
+         a++
+         console.log(`Added ${a} Downloads!\n`);
+     });
+ }
+  ```
+  
+  So basically, what this code does is fetch the tarball of your package every 1000 milliseconds (1 second.)
  
 3. Profit????
 
