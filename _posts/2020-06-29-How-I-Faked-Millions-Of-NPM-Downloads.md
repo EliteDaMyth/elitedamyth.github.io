@@ -4,6 +4,7 @@ title: How I Faked Millions of NPM Downloads!
 subtitle: Faking NPM downloads is the easiest thing to do!
 tags: [npm, hacking]
 readtime: true
+image: /assets/img/NPM.png
 ---
 
 ### A bit of backstory.
