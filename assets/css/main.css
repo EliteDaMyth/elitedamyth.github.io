@@ -856,6 +856,10 @@ pre {
 .highlight .kd {
   color: #cda869;
 }
+.highlight .k {
+  color: #cda869;
+}
+
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
   -webkit-user-select: none;
