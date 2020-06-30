@@ -28,7 +28,7 @@ layout: page
       {% if post.image %}
       <div class="post-image">
         <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
+          <img src="{{ post.image | relative_url }}" alt="Post Image">
         </a>
       </div>
       {% endif %}
