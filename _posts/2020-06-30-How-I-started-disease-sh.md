@@ -20,7 +20,8 @@ The bot was almost done at this point and connected with the API, and stuff was 
 This is how the bot looked like.
 
 Now that the bot was done, I started advertising it all over the place (Big Reddit subs), and in no time, the bot started gaining ALOT of servers. As far as I remember, we reached almost 2 THOUSAND servers the first day, and my Reddit posts got like 4k upvotes.
-As the bot gained servers, people started asking me where the data was fetched from. At this point of time, I thought *The API **could** be useful for some people who wanna make a discord bot or some shit*, So I pointed the subdomain [corona.lmao.ninja](https://corona.lmao.ninja) *(This was clearly not meant for people to use)* to my glitch project. I gave the link to some of my friends. Now, Everything was going great, THe bot was growing fast as fuck, and that's all I cared about. After 2-3 days, our API frequently hit the 5k requests/hour mark. We thought it was probably because of the bot, so we moved to AWS free plan. I also made a half-line API wrapper for the API 
+
+As the bot gained servers, people started asking me where the data was fetched from. At this point of time, I thought *The API **could** be useful for some people who wanna make a discord bot or some shit*, So I pointed the subdomain [corona.lmao.ninja](https://corona.lmao.ninja) *(This was clearly not meant for people to use)* to my glitch project. I gave the link to some of my friends. Now, Everything was going great, The bot was growing fast as fuck, and that's all I cared about. After 2-3 days, our API frequently hit the 5k requests/hour mark. We thought it was probably because of the bot, so we moved to AWS free plan. I also made a half-line API wrapper for the API 
 
 ```javascript
 for(const o of["all","countries"])exports[o]=(async()=>{const t=await require("node-fetch")(`https://corona.lmao.ninja/${o}`);return await t.json()});
