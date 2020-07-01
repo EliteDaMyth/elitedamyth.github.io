@@ -4,6 +4,7 @@ title: How I started a globally trending COVID tracking API during quarantine!
 subtitle: Making an API is easy! You can do it too!
 tags: [disease.sh, API, node, javascript]
 readtime: true
+cover-img: /assets/img/rona.jpg
 image: /assets/img/disease-sh-logo.png
 comments: true
 ---
