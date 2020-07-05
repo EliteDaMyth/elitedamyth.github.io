@@ -84,7 +84,7 @@ excerpt_length: 50
 navbar-col: "#7289DA"
 navbar-text-col: "#FFFFFF"
 navbar-border-col: "#2C2F33"
-page-col: "#2C2F33"
+#page-col: "#2C2F33"
 link-col: "#3e70dd"
 hover-col: "#99AAB5"
 footer-col: "#23272A"
@@ -96,7 +96,7 @@ footer-link-col: "#7289DA"
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+page-img: "/assets/img/bg.webp"
 
 # --- Web Statistics Section --- #
 
