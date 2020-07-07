@@ -27,7 +27,7 @@ Let me walk you through an example of building a [Long Short Term Memory (LSTM)]
 
 LSTMs are a type of [Recurrent Neural Networks (RNN)](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) 's Which are used for time-series problems. They are often used in predicting cryptocurrency prices, stock market prices, etc.
 
-If you don't want to know how the code works and wanna get to the code: [Here is the GitHub Repo]([https://github.com/EliteDaMyth/COVID-Predictor](https://github.com/EliteDaMyth/COVID-Predictor)).
+If you don't want to know how the code works and wanna get to the code: [Here is the GitHub Repo](https://github.com/EliteDaMyth/COVID-Predictor).
 
 So, We first read the `COVID-CASES.csv` file & tell panda that the index is `Date` Column:
 ```py
