@@ -1,13 +1,13 @@
 # --- Basic options --- #
 
 # Name of website
-title: EliteDaMyth
+title: AnonDoser
 
 # Short description of your site
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: EliteDaMyth
+author: AnonDoser
 
 # --- List of links in the navigation bar --- #
 
@@ -39,10 +39,10 @@ round-avatar: true
 social-network-links:
  # email: "someone@example.com"
  # facebook: deanattali
-  github: EliteDaMyth
-  twitter: EliteDaMyth
+  github: Himanshu2406
+  #twitter: EliteDaMyth
   rss: true
-  reddit: EliteDaMyth
+  reddit: AnonDoser
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
