@@ -859,6 +859,9 @@ pre {
 .highlight .k {
   color: #cda869;
 }
+.highlight .n {
+  color: #ac885b;
+}
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
