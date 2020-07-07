@@ -35,9 +35,10 @@ hist = pd.read_csv('COVID-CASES.csv')
 hist = hist.set_index('Date')
 ```
  then, we use `hist.head()` to show the first 5 rows to make sure everything is working.
+ 
  ![hist.head()](https://cdn.discordapp.com/attachments/655302848849903646/730038384377987072/unknown.png)
 
-We split the data into two parts.
+Now, We split the data into two parts.
 
  - Training data,
  - Testing data.
@@ -57,8 +58,11 @@ Using the trained model to predict the test set, we obtain the graph shown in th
 ![Prediction Graph](https://cdn.discordapp.com/attachments/709095218535858198/730028120333352990/wMQL5Zme1b6QAAAABJRU5ErkJggg.png)
 
 So what exactly is happening here? Why does this look so accurate?
+
 So, If you have gone through the code, You might have seen the flaw already. 
+
 The flaw with this model is that _for the prediction of a particular day, it mostly uses the value of the previous day._
+
 The prediction line is not much more than a shifted version of the actual price.
 
 If we adjust the Prediction line to be one day back, It will *almost* entirely overlap the Actual Data line.
