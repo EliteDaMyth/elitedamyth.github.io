@@ -21,7 +21,7 @@ That's it.
 
 This is how it looks: 
  
-[![Example](https://cdn.discordapp.com/attachments/655302848849903646/731759371691753522/unknown.png)](https://github.com/EliteDaMyth)
+[![Example](https://i.redd.it/u0g94yjovea51.png)](https://github.com/EliteDaMyth)
 
 You can click on the above image to go to my profile!
 
