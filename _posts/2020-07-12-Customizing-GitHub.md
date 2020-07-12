@@ -8,8 +8,6 @@ image: https://github.githubassets.com/images/modules/logos_page/Octocat.png
 comments: true
 ---
 
-# How to add a README to your GitHub profile
-
 A new feature arrived on GitHub a few days ago!
 
 This is how it works:
