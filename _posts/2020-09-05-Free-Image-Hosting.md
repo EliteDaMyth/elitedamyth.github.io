@@ -66,3 +66,5 @@ so basically, the url [https://cdn.elitedamyth.xyz/q7LwAVB.png](https://cdn.elit
 
  - That's it! You have a fully working and free Image hosting domain! 
  Add me on discord if you encounter any issues (EliteDaMyth#0690)
+
+Thanks to [Duncte](https://github.com/api-modules/sharex-domain-worker) for the original idea and the code which I modified :)
