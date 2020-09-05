@@ -13,6 +13,8 @@ So what we are going to do, is to upload our images to imgur, then use our own d
 A hosted example can be found at [cdn.elitedamyth.xyz](https://cdn.elitedamyth.xyz/)
 so basically, the url [https://cdn.elitedamyth.xyz/q7LwAVB.png](https://cdn.elitedamyth.xyz/q7LwAVB.png) is a proxy for [https://i.imgur.com/q7LwAVB.png](https://i.imgur.com/q7LwAVB.png)! I will be using sharex as it is a free and open-sourced tool.
 
+Thanks to [Duncte](https://github.com/api-modules/sharex-domain-worker) for the original idea and the code which I modified :)
+
 
 ### Requirements:
 
@@ -65,6 +67,5 @@ so basically, the url [https://cdn.elitedamyth.xyz/q7LwAVB.png](https://cdn.elit
  ![shortener](https://cdn.elitedamyth.xyz/YWvraGF.png)
 
  - That's it! You have a fully working and free Image hosting domain! 
+ 
  Add me on discord if you encounter any issues (EliteDaMyth#0690)
-
-Thanks to [Duncte](https://github.com/api-modules/sharex-domain-worker) for the original idea and the code which I modified :)
