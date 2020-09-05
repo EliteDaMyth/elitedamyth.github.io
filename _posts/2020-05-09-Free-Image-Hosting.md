@@ -4,6 +4,7 @@ title: Make your own image sharing domain using cloudflare workers and imgur!
 subtitle: Cloudflare Workers are Amazing! Make your own Image Hosting with cloudflare and imgur!
 tags: [cloudflare, image, free hosting, imgur]
 readtime: true
+image: https://miro.medium.com/max/392/1*6bqgBkbNo7kXLv2qXU6NHQ.jpeg
 comments: true
 ---
 
