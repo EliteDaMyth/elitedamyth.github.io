@@ -46,7 +46,7 @@ so basically, the url https://cdn.elitedamyth.xyz/q7LwAVB.png is a proxy for htt
  - Click on "After Upload Tasks" and select Shorten URL.
  ![Shorten URL](https://cdn.elitedamyth.xyz/FhLRFo9.png)
  - Go To Destinations > Custom uploader settings and Import from clipboard;
-  ```
+  ```js
   {
    "Version": "12.4.1",
    "Name": "imgur domain change",
